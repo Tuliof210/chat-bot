@@ -4,9 +4,5 @@ import React from 'react';
 import './Main.scss';
 
 export default (props: any) => {
-  return (
-    <div>
-      <h1>Olas</h1>
-    </div>
-  );
+  return <div className="main-wrapper"></div>;
 };
